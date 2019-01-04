@@ -31,7 +31,7 @@ for i in path:
 
 print(new_path)
 
-for i in new_path:
+for i in new_path[::-1]:
     for key, value in main_dir.items():
         if i == key:
             for k,v in value.items():
