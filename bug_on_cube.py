@@ -1,4 +1,3 @@
-from itertools import cycle
 final_position = input("enter final position")
 path = input("enter path from intial position")
 
